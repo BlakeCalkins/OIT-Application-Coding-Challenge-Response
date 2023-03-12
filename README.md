@@ -1,2 +1,6 @@
 # OIT-Application-Coding-Challenge-Response
-Here is my code answering the coding challenge given for my OIT Student Programmer Application
+Here is my code answering the coding challenge given for my OIT Student Programmer Application.
+I wrote this code in Python.
+I didn't run into many problems while coding this. First I wrote out the steps I needed to do on a piece of paper to help give me a guide. 
+The main issue I ran into was how to display the correct responses with blank spaces in between. I first had the idea to create a string of underscores equal to the length of the word that I could then change according to the right guesses. I had the idea of zipping together the word and a list of the length of the word in order to find the index of the correctly guessed letter. I soon realized that you can't iterate over a string in python, so I changed the right_letters string into a list. This meant that I had to change the while loop that the game was operating in to compensate. Eventually I created another string called right_letters_string, which was the right_letters list converted into a string, and I updated it every guess so that it could be compared at the top of the while loop. 
+Thank you for considering my code, I had fun writing it. I've uploaded a photo of the initial outline I drew when I started to code. 
